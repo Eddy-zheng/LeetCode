@@ -1,7 +1,7 @@
 # coding=utf-8
 import sys
-sys.path.append('../')
 import numpy as np
+sys.path.append('../')
 from lib import *
 
 
@@ -50,3 +50,4 @@ class TwoSum(object):
 instan = TwoSum()
 print instan.solution1()
 print instan.solution2()
+
