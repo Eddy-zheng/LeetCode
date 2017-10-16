@@ -32,6 +32,7 @@ class TwoSum(object):
             for index2, number2 in enumerate(self.random_list):
                 if (number1 + number2 == self.target) and index1 != index2:
                     return index1, index2
+        raise ValueError("No two sum solution")
 
     @time_cost
     def solution2(self):
@@ -45,9 +46,9 @@ class TwoSum(object):
                 index1 = self.random_list.index(number1)
                 index2 = self.random_list.index(number2)
                 return index1, index2
+        raise ValueError("No two sum solution")
 
 
 instan = TwoSum()
 print instan.solution1()
 print instan.solution2()
-
