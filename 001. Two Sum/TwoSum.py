@@ -21,7 +21,7 @@ class TwoSum(object):
         self.target = target
 
         if self.random_list is None:
-            self.random_list = np.random.randint(2017, size=2000)
+            self.random_list = np.random.randint(200017, size=2000)
         if self.target is None:
             self.target = self.random_list[0] + self.random_list[-1]
 
